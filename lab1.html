@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script>
+    const p1 = {x: 1, y: 1};
+    const p2 = {x: 10, y: 8};
+    const a = p2.y - p1.y;
+    const b = p2.x - p1.x;
+    const P = (2 * a) + (2 * b);
+    alert('P = ' + P + '.');
+    const S = a * b;
+    alert('S = ' + S + '.');
+    const d = Math.sqrt (Math.pow(a, 2) + Math.pow(b, 2));
+    alert('d = ' + d + '.');
+    const square = (a !== b) ? 'Ця фігура не є квадратом.' : 'Ця фігура є крадратом';
+    alert(square);
+  </script>
+</body>
+</html>
